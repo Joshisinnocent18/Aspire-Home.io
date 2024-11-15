@@ -418,3 +418,61 @@ Media Queries
         display: none;
     }
 }
+
+/* General Section Styling */
+section {
+    padding: 60px 20px;
+  }
+  
+  /* Vision and Mission Section */
+  #vision-mission {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 60px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #vision-mission h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #vision-mission h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  #vision-mission p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Video Section */
+  #video-presentation {
+    background-color: #ffffff; /* White background */
+    padding: 60px 0;
+  }
+  
+  #video-presentation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #video-presentation p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  #video-presentation video {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
